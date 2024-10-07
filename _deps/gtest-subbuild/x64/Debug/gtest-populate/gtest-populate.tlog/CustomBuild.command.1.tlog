@@ -1,0 +1,150 @@
+^H:\APPP1\APPP1\_DEPS\GTEST-SUBBUILD\CMAKEFILES\A10D3E718415A8DBDA3AE5115B44CEE4\GTEST-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P H:/appp1/appp1/_deps/gtest-subbuild/gtest-populate-prefix/tmp/gtest-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/appp1/appp1/_deps/gtest-subbuild/gtest-populate-prefix/src/gtest-populate-stamp/Debug/gtest-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^H:\APPP1\APPP1\_DEPS\GTEST-SUBBUILD\CMAKEFILES\A10D3E718415A8DBDA3AE5115B44CEE4\GTEST-POPULATE-DOWNLOAD.RULE
+setlocal
+cd H:\appp1\appp1\_deps
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P H:/appp1/appp1/_deps/gtest-subbuild/gtest-populate-prefix/tmp/gtest-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/appp1/appp1/_deps/gtest-subbuild/gtest-populate-prefix/src/gtest-populate-stamp/Debug/gtest-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^H:\APPP1\APPP1\_DEPS\GTEST-SUBBUILD\CMAKEFILES\A10D3E718415A8DBDA3AE5115B44CEE4\GTEST-POPULATE-UPDATE.RULE
+setlocal
+cd H:\appp1\appp1\_deps\gtest-src
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -P H:/appp1/appp1/_deps/gtest-subbuild/gtest-populate-prefix/tmp/gtest-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^H:\APPP1\APPP1\_DEPS\GTEST-SUBBUILD\CMAKEFILES\A10D3E718415A8DBDA3AE5115B44CEE4\GTEST-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/appp1/appp1/_deps/gtest-subbuild/gtest-populate-prefix/src/gtest-populate-stamp/Debug/gtest-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^H:\APPP1\APPP1\_DEPS\GTEST-SUBBUILD\CMAKEFILES\A10D3E718415A8DBDA3AE5115B44CEE4\GTEST-POPULATE-CONFIGURE.RULE
+setlocal
+cd H:\appp1\appp1\_deps\gtest-build
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/appp1/appp1/_deps/gtest-subbuild/gtest-populate-prefix/src/gtest-populate-stamp/Debug/gtest-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^H:\APPP1\APPP1\_DEPS\GTEST-SUBBUILD\CMAKEFILES\A10D3E718415A8DBDA3AE5115B44CEE4\GTEST-POPULATE-BUILD.RULE
+setlocal
+cd H:\appp1\appp1\_deps\gtest-build
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/appp1/appp1/_deps/gtest-subbuild/gtest-populate-prefix/src/gtest-populate-stamp/Debug/gtest-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^H:\APPP1\APPP1\_DEPS\GTEST-SUBBUILD\CMAKEFILES\A10D3E718415A8DBDA3AE5115B44CEE4\GTEST-POPULATE-INSTALL.RULE
+setlocal
+cd H:\appp1\appp1\_deps\gtest-build
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/appp1/appp1/_deps/gtest-subbuild/gtest-populate-prefix/src/gtest-populate-stamp/Debug/gtest-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^H:\APPP1\APPP1\_DEPS\GTEST-SUBBUILD\CMAKEFILES\A10D3E718415A8DBDA3AE5115B44CEE4\GTEST-POPULATE-TEST.RULE
+setlocal
+cd H:\appp1\appp1\_deps\gtest-build
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/appp1/appp1/_deps/gtest-subbuild/gtest-populate-prefix/src/gtest-populate-stamp/Debug/gtest-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^H:\APPP1\APPP1\_DEPS\GTEST-SUBBUILD\CMAKEFILES\4F958FD760DB9316B2BDA7E46B51DB2A\GTEST-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/appp1/appp1/_deps/gtest-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/appp1/appp1/_deps/gtest-subbuild/CMakeFiles/Debug/gtest-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/appp1/appp1/_deps/gtest-subbuild/gtest-populate-prefix/src/gtest-populate-stamp/Debug/gtest-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^H:\APPP1\APPP1\_DEPS\GTEST-SUBBUILD\CMAKEFILES\082661569A1BC719191E012CF449AB93\GTEST-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^H:\APPP1\APPP1\_DEPS\GTEST-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/appp1/appp1/_deps/gtest-subbuild -BH:/appp1/appp1/_deps/gtest-subbuild --check-stamp-file H:/appp1/appp1/_deps/gtest-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

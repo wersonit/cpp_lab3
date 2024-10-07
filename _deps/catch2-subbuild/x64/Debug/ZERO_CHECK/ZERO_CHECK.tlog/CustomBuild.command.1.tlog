@@ -1,0 +1,10 @@
+^H:\APPP1\APPP1\_DEPS\CATCH2-SUBBUILD\CMAKEFILES\69660E5E09E8C318D9BC8B02BD4C4D02\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/appp1/appp1/_deps/catch2-subbuild -BH:/appp1/appp1/_deps/catch2-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file H:/appp1/appp1/_deps/catch2-subbuild/catch2-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

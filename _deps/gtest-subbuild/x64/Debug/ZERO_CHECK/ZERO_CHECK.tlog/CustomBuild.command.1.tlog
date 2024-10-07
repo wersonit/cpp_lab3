@@ -1,0 +1,10 @@
+^H:\APPP1\APPP1\_DEPS\GTEST-SUBBUILD\CMAKEFILES\082661569A1BC719191E012CF449AB93\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/appp1/appp1/_deps/gtest-subbuild -BH:/appp1/appp1/_deps/gtest-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file H:/appp1/appp1/_deps/gtest-subbuild/gtest-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

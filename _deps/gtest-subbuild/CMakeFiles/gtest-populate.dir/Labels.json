@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "H:/appp1/appp1/_deps/gtest-subbuild/CMakeFiles/gtest-populate"
+		},
+		{
+			"file" : "H:/appp1/appp1/_deps/gtest-subbuild/CMakeFiles/082661569a1bc719191e012cf449ab93/gtest-populate.rule"
+		},
+		{
+			"file" : "H:/appp1/appp1/_deps/gtest-subbuild/CMakeFiles/4f958fd760db9316b2bda7e46b51db2a/gtest-populate-complete.rule"
+		},
+		{
+			"file" : "H:/appp1/appp1/_deps/gtest-subbuild/CMakeFiles/a10d3e718415a8dbda3ae5115b44cee4/gtest-populate-build.rule"
+		},
+		{
+			"file" : "H:/appp1/appp1/_deps/gtest-subbuild/CMakeFiles/a10d3e718415a8dbda3ae5115b44cee4/gtest-populate-configure.rule"
+		},
+		{
+			"file" : "H:/appp1/appp1/_deps/gtest-subbuild/CMakeFiles/a10d3e718415a8dbda3ae5115b44cee4/gtest-populate-download.rule"
+		},
+		{
+			"file" : "H:/appp1/appp1/_deps/gtest-subbuild/CMakeFiles/a10d3e718415a8dbda3ae5115b44cee4/gtest-populate-install.rule"
+		},
+		{
+			"file" : "H:/appp1/appp1/_deps/gtest-subbuild/CMakeFiles/a10d3e718415a8dbda3ae5115b44cee4/gtest-populate-mkdir.rule"
+		},
+		{
+			"file" : "H:/appp1/appp1/_deps/gtest-subbuild/CMakeFiles/a10d3e718415a8dbda3ae5115b44cee4/gtest-populate-patch.rule"
+		},
+		{
+			"file" : "H:/appp1/appp1/_deps/gtest-subbuild/CMakeFiles/a10d3e718415a8dbda3ae5115b44cee4/gtest-populate-test.rule"
+		},
+		{
+			"file" : "H:/appp1/appp1/_deps/gtest-subbuild/CMakeFiles/a10d3e718415a8dbda3ae5115b44cee4/gtest-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"gtest-populate"
+		],
+		"name" : "gtest-populate"
+	}
+}

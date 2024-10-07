@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "H:/appp1/appp1/_deps/catch2-subbuild/CMakeFiles/catch2-populate"
+		},
+		{
+			"file" : "H:/appp1/appp1/_deps/catch2-subbuild/CMakeFiles/69660e5e09e8c318d9bc8b02bd4c4d02/catch2-populate.rule"
+		},
+		{
+			"file" : "H:/appp1/appp1/_deps/catch2-subbuild/CMakeFiles/332701db897c69f16391047a6a793a8e/catch2-populate-complete.rule"
+		},
+		{
+			"file" : "H:/appp1/appp1/_deps/catch2-subbuild/CMakeFiles/5b26a03ab199a8f49da76f55167cd52b/catch2-populate-build.rule"
+		},
+		{
+			"file" : "H:/appp1/appp1/_deps/catch2-subbuild/CMakeFiles/5b26a03ab199a8f49da76f55167cd52b/catch2-populate-configure.rule"
+		},
+		{
+			"file" : "H:/appp1/appp1/_deps/catch2-subbuild/CMakeFiles/5b26a03ab199a8f49da76f55167cd52b/catch2-populate-download.rule"
+		},
+		{
+			"file" : "H:/appp1/appp1/_deps/catch2-subbuild/CMakeFiles/5b26a03ab199a8f49da76f55167cd52b/catch2-populate-install.rule"
+		},
+		{
+			"file" : "H:/appp1/appp1/_deps/catch2-subbuild/CMakeFiles/5b26a03ab199a8f49da76f55167cd52b/catch2-populate-mkdir.rule"
+		},
+		{
+			"file" : "H:/appp1/appp1/_deps/catch2-subbuild/CMakeFiles/5b26a03ab199a8f49da76f55167cd52b/catch2-populate-patch.rule"
+		},
+		{
+			"file" : "H:/appp1/appp1/_deps/catch2-subbuild/CMakeFiles/5b26a03ab199a8f49da76f55167cd52b/catch2-populate-test.rule"
+		},
+		{
+			"file" : "H:/appp1/appp1/_deps/catch2-subbuild/CMakeFiles/5b26a03ab199a8f49da76f55167cd52b/catch2-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"catch2-populate"
+		],
+		"name" : "catch2-populate"
+	}
+}
